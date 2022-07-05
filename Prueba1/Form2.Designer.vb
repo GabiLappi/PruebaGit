@@ -68,9 +68,10 @@ Partial Class Form2
         'CheckBox1
         '
         Me.CheckBox1.AutoSize = True
+        Me.CheckBox1.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.CheckBox1.Location = New System.Drawing.Point(41, 80)
         Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(84, 19)
+        Me.CheckBox1.Size = New System.Drawing.Size(93, 21)
         Me.CheckBox1.TabIndex = 4
         Me.CheckBox1.Text = "CheckBox1"
         Me.CheckBox1.UseVisualStyleBackColor = True
@@ -78,9 +79,10 @@ Partial Class Form2
         'CheckBox2
         '
         Me.CheckBox2.AutoSize = True
+        Me.CheckBox2.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.CheckBox2.Location = New System.Drawing.Point(140, 80)
         Me.CheckBox2.Name = "CheckBox2"
-        Me.CheckBox2.Size = New System.Drawing.Size(84, 19)
+        Me.CheckBox2.Size = New System.Drawing.Size(93, 21)
         Me.CheckBox2.TabIndex = 5
         Me.CheckBox2.Text = "CheckBox2"
         Me.CheckBox2.UseVisualStyleBackColor = True
@@ -88,9 +90,10 @@ Partial Class Form2
         'CheckBox3
         '
         Me.CheckBox3.AutoSize = True
+        Me.CheckBox3.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.CheckBox3.Location = New System.Drawing.Point(241, 80)
         Me.CheckBox3.Name = "CheckBox3"
-        Me.CheckBox3.Size = New System.Drawing.Size(84, 19)
+        Me.CheckBox3.Size = New System.Drawing.Size(93, 21)
         Me.CheckBox3.TabIndex = 6
         Me.CheckBox3.Text = "CheckBox3"
         Me.CheckBox3.UseVisualStyleBackColor = True
