@@ -28,6 +28,7 @@ Partial Class Form2
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox2 = New System.Windows.Forms.CheckBox()
         Me.SuspendLayout()
         '
         'TextBox1
@@ -74,18 +75,29 @@ Partial Class Form2
         'CheckBox1
         '
         Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(142, 88)
+        Me.CheckBox1.Location = New System.Drawing.Point(138, 88)
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(84, 19)
         Me.CheckBox1.TabIndex = 5
         Me.CheckBox1.Text = "CheckBox1"
         Me.CheckBox1.UseVisualStyleBackColor = True
         '
+        'CheckBox2
+        '
+        Me.CheckBox2.AutoSize = True
+        Me.CheckBox2.Location = New System.Drawing.Point(228, 88)
+        Me.CheckBox2.Name = "CheckBox2"
+        Me.CheckBox2.Size = New System.Drawing.Size(84, 19)
+        Me.CheckBox2.TabIndex = 6
+        Me.CheckBox2.Text = "CheckBox2"
+        Me.CheckBox2.UseVisualStyleBackColor = True
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(358, 111)
+        Me.Controls.Add(Me.CheckBox2)
         Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label2)
@@ -105,4 +117,5 @@ Partial Class Form2
     Friend WithEvents Label2 As Label
     Friend WithEvents Button1 As Button
     Friend WithEvents CheckBox1 As CheckBox
+    Friend WithEvents CheckBox2 As CheckBox
 End Class
