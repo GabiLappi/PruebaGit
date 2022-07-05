@@ -37,9 +37,10 @@ Partial Class Form1
         'CheckBox1
         '
         Me.CheckBox1.AutoSize = True
+        Me.CheckBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.CheckBox1.Location = New System.Drawing.Point(19, 28)
         Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(84, 19)
+        Me.CheckBox1.Size = New System.Drawing.Size(97, 19)
         Me.CheckBox1.TabIndex = 4
         Me.CheckBox1.Text = "CheckBox1"
         Me.CheckBox1.UseVisualStyleBackColor = True
@@ -47,9 +48,10 @@ Partial Class Form1
         'CheckBox2
         '
         Me.CheckBox2.AutoSize = True
+        Me.CheckBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.CheckBox2.Location = New System.Drawing.Point(127, 28)
         Me.CheckBox2.Name = "CheckBox2"
-        Me.CheckBox2.Size = New System.Drawing.Size(84, 19)
+        Me.CheckBox2.Size = New System.Drawing.Size(97, 19)
         Me.CheckBox2.TabIndex = 5
         Me.CheckBox2.Text = "CheckBox2"
         Me.CheckBox2.UseVisualStyleBackColor = True
