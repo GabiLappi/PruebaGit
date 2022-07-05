@@ -23,33 +23,23 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(33, 17)
+        Me.Button1.Location = New System.Drawing.Point(69, 12)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "Aceptar"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'Button3
-        '
-        Me.Button3.Location = New System.Drawing.Point(134, 17)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 23)
-        Me.Button3.TabIndex = 2
-        Me.Button3.Text = "Actualizar"
-        Me.Button3.UseVisualStyleBackColor = True
-        '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(67, 60)
+        Me.TextBox1.Location = New System.Drawing.Point(69, 63)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 23)
+        Me.TextBox1.Size = New System.Drawing.Size(84, 23)
         Me.TextBox1.TabIndex = 3
         '
         'Form1
@@ -58,7 +48,6 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(257, 98)
         Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button1)
         Me.Name = "Form1"
         Me.Text = "Form1"
@@ -68,6 +57,5 @@ Partial Class Form1
     End Sub
 
     Friend WithEvents Button1 As Button
-    Friend WithEvents Button3 As Button
     Friend WithEvents TextBox1 As TextBox
 End Class
