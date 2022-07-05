@@ -47,18 +47,18 @@ Partial Class Form2
         Me.Label1.AutoSize = True
         Me.Label1.Location = New System.Drawing.Point(58, 20)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(41, 15)
+        Me.Label1.Size = New System.Drawing.Size(56, 15)
         Me.Label1.TabIndex = 2
-        Me.Label1.Text = "Label1"
+        Me.Label1.Text = "Etiqueta1"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Location = New System.Drawing.Point(192, 20)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(41, 15)
+        Me.Label2.Size = New System.Drawing.Size(56, 15)
         Me.Label2.TabIndex = 3
-        Me.Label2.Text = "Label2"
+        Me.Label2.Text = "Etiqueta2"
         '
         'Form2
         '
